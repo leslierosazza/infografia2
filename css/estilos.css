@@ -1,0 +1,479 @@
+body {
+	font-family: Stone Sans II ITC Pro;
+	margin: 30px;
+	/*border: 1px solid #FF151D;*/
+}
+
+section {
+	/*border: 1px solid #7AB800;*/
+	display: flex;
+	align-items: center;
+	padding: 60px 30px;
+}
+
+footer {
+	float: right;
+}
+
+.titulo {
+	font-size: 20px;
+	font-weight: 600;
+	color: #000000;
+	display: flex;
+	margin: 0 266px;
+}
+
+.titulo-diagrama1 {
+	font-size: 28px;
+	font-weight: 600;
+	width: 116px;
+	height: 65px;
+	color: #FFFFFF;
+	display: flex;
+	position: absolute;
+	left: 649px;
+	align-items: center;
+}
+
+.titulo-diagrama2 {
+	color: #000000;
+	font-size: 20px;
+	font-weight: 600;
+	position: absolute;
+	top: 1295px;
+	left: 184px;
+}
+
+.titulo-recomendaciones {
+	color: #000000;
+	font-size: 20px;
+	font-weight: 600;
+	position: absolute;
+	top: 715px;
+	left: 184px;
+}
+
+.diagrama-1 {
+	background-image: url(../images/imag01.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 640px;
+	height: 427px;
+	display: flex;
+	margin: 40px 320px;
+}
+
+.caja {
+	display: flex;
+	align-items: center;
+}
+
+.images {
+	cursor: pointer;
+	display: flex;
+}
+
+.recomendaciones {
+	margin: auto 120px;
+}
+
+.images-1 {
+	background-image: url(../images/accidentes_alcohol.png);
+	background-repeat: no-repeat;
+	width: 173px;
+	height: 158px;
+	position: absolute;
+	left: 617px;
+	top: 95px;
+}
+
+.images-2 {
+	background-image: url(../images/choque.png);
+	background-repeat: no-repeat;
+	width: 173px;
+	height: 158px;
+	position: absolute;
+	left: 842px;
+	top: 296px;
+}
+
+.images-3 {
+	background-image: url(../images/estadisticas.png);
+	background-repeat: no-repeat;
+	width: 173px;
+	height: 158px;
+	position: absolute;
+	left: 617px;
+	top: 494px;
+}
+
+.images-4 {
+	background-image: url(../images/accidente.png);
+	background-repeat: no-repeat;
+	width: 173px;
+	height: 158px;
+	position: absolute;
+	left: 395px;
+	top: 296px;
+}
+
+.images-5 {
+	background-image: url(../images/carrito.png);
+	background-repeat: no-repeat;
+	width: 101px;
+	height: 81px;
+	cursor: pointer;
+}
+
+.images-6 {
+	background-image: url(../images/señales.png);
+	background-repeat: no-repeat;
+	width: 95px;
+	height: 136px;
+	cursor: pointer;
+}
+
+.images-7 {
+	background-image: url(../images/mecanico.png);
+	background-repeat: no-repeat;
+	width: 142px;
+	height: 110px;
+	cursor: pointer;
+}
+
+.images-cono {
+	background-image: url(../images/cono.png);
+	background-repeat: no-repeat;
+	width: 1323px;
+	height: 462px;
+	margin: 20px 100px;
+}
+
+.texto-popup {
+	color: #000000;
+}
+
+.cuadro-rojo {
+	background: #FF151D;
+	color: #FFFFFF;
+	font-size: 14px;
+	padding: 0 10px;
+	position: absolute;
+  top: 1855px;
+  left: 108px;
+}
+
+.cono1 {
+	position: absolute;
+  left: 578px;
+  top: 1542px;
+  font-size: 14px;
+  color: #FFFFFF;
+  width: 102px;
+  /*height: 35px;*/
+  cursor: pointer;
+}
+
+.cono2 {
+	position: absolute;
+  left: 450px;
+  top: 1542px;
+  font-size: 14px;
+  color: #FFFFFF;
+  width: 116px;
+  /*height: 35px;*/
+  cursor: pointer;
+}
+
+.cono3 {
+	position: absolute;
+  left: 336px;
+  top: 1542px;
+  font-size: 14px;
+  color: #FFFFFF;
+  width: 102px;
+  /*height: 35px;*/
+  cursor: pointer;
+}
+
+.cono4 {
+	position: absolute;
+  left: 190px;
+  top: 1542px;
+  font-size: 14px;
+  color: #FFFFFF;
+  width: 106px;
+  /*height: 35px;*/
+  cursor: pointer;
+}
+
+.images-1:hover .popup-circulo {
+	visibility: visible;
+}
+
+.images-2:hover .popup-circulo {
+	visibility: visible;
+}
+
+.images-3:hover .popup-circulo {
+	visibility: visible;
+}
+
+.images-4:hover .popup-circulo {
+	visibility: visible;
+}
+
+.images-5:hover .popup {
+	visibility: visible;
+}
+
+.images-6:hover .popup {
+	visibility: visible;
+}
+
+.images-7:hover .popup {
+	visibility: visible;
+}
+
+.cono1:hover .popup-conos {
+	visibility: visible;
+}
+
+.cono2:hover .popup-conos {
+	visibility: visible;
+}
+
+.cono3:hover .popup-conos {
+	visibility: visible;
+}
+
+.cono4:hover .popup-conos {
+	visibility: visible;
+}
+
+.popup-circulo {
+	display: inline-block;
+	visibility: hidden;
+	width: 188px;
+	background: #FFFFFF;
+	font-size: 12px;
+	border: 1px solid #E11B22; 
+	position: absolute;
+  z-index: 3;
+  padding: 4px;
+  margin: 40px 177px;
+}
+
+.popup {
+	display: inline-block;
+	visibility: hidden;
+	width: 188px;
+	background: #FFFFFF;
+	font-size: 12px;
+	border: 1px solid #E11B22; 
+	position: absolute;
+  z-index: 3;
+  padding: 4px;
+  margin: 40px 177px;
+}
+
+.popup-conos {
+	display: inline-block;
+	visibility: hidden;
+	width: 188px;
+	background: #FFFFFF;
+	font-size: 12px;
+	border: 1px solid #E11B22; 
+	position: absolute;
+  z-index: 3;
+  padding: 4px;
+  margin: 0 100px;
+}
+
+.logo-aon {
+	background-image: url(../images/logo-aon.png);
+	background-repeat: no-repeat;
+	display: flex;
+	width: 106px;
+	height: 46px;
+	margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+
+	.titulo {
+		margin: 0 90px;
+	}
+
+	.diagrama-1 {
+		margin: 40px 90px;
+	}
+
+	.titulo-diagrama1 {
+		left: 412px;
+	}
+
+	.images-1 {
+		left: 383px;
+		top: 90px;
+	}
+
+	.images-2 {
+		left: 605px;
+	}
+
+	.images-3 {
+		left: 386px;
+		top: 490px;
+	}
+
+	.images-4 {
+		left: 165px;
+	}
+
+	.images-cono {
+		margin-top: -35px;
+	}
+
+	.cuadro-rojo {
+		margin: 0 110px;
+	}
+
+	.logo-aon {
+		margin-top: 30px;
+	}
+}
+
+@media screen and (max-width: 375px) { 
+
+	body {
+		margin: auto;
+	}
+
+	section {
+		padding: 84px 15px;
+	}
+
+
+	.titulo {
+		margin: 5px 16px;
+	}
+	
+	.diagrama-1 {
+		background-image: url(../images/imag01-min.png);
+		width: 320px;
+		height: 214px;
+		margin: 0px;
+	}
+
+	.images-1 {
+		background-image: url(../images/accidentes_alcohol-min.png);
+		width: 86px;
+		height: 79px;
+		left: 133px;
+		top: 132px;
+	}
+
+	.images-2 {
+		background-image: url(../images/choque-min.png);
+		width: 85px;
+		height: 78px;
+		left: 240px;
+		top: 235px;
+	}
+
+	.images-3 {
+		background-image: url(../images/estadisticas-min.png);
+		width: 85px;
+		height: 78px;
+		left: 133px;
+		top: 335px;
+	}
+
+	.images-4 {
+		background-image: url(../images/accidente-min.png);
+		width: 85px;
+		height: 78px;
+		left: 24px;
+		top: 235px;
+	}
+
+	.popup-circulo {
+  	margin: 80px -13px;
+  	width: 118px;
+  	padding: 0 2px;
+	}
+
+	.popup {
+  	margin: 15px 142px;
+	}
+
+	.popup-conos {
+  	margin: 0 -17px;
+	}
+
+	.titulo-diagrama1 {
+		font-size: 18px;
+		width: 76px;
+		height: 45px;
+		left: 140px;
+	}
+
+	.titulo-recomendaciones {
+		top: 480px;
+		left: 20px;
+	}
+
+	.images-cono {
+		background-image: url(../images/cono-min.png);
+		background-repeat: no-repeat;
+		width: 224px;
+		height: 162px;
+		margin: 50px 5px;
+	}
+
+	.recomendaciones {
+		margin: -52px -7px;
+	}
+
+	.titulo-diagrama2 {
+		top: 1137px;
+		left: 20px;
+	}
+
+	.cono1 {
+  	left: 167px;
+  	top: 1282px;
+  	font-size: 8.5px;
+  	width: 58px;
+	}
+
+	.cono2 {
+  	left: 126px;
+  	top: 1282px;
+  	font-size: 8.5px;
+  	width: 40px;
+	}
+
+	.cono3 {
+  	left: 75px;
+  	top: 1282px;
+  	font-size: 8.5px;
+  	width: 56px;
+	}
+
+	.cono4 {
+  	left: 30px;
+  	top: 1282px;
+  	font-size: 8.5px;
+  	width: 36px;
+	}
+
+	.cuadro-rojo {
+  	left: 0;
+  	margin: -415px 0;
+	}
+
+}
+
+
